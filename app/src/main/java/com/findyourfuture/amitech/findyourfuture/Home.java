@@ -18,8 +18,6 @@ import com.findyourfuture.amitech.findyourfuture.Fragments.StoreFragment;
 public class Home extends AppCompatActivity {
 
 
-    //this is first change
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +25,8 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         String test="testvalue";
+
+        String test1="Haseeb";
 
 
 
