@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".welcomescreen">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/lightorange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Your Future"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="150dp"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:textColor="@color/lightorangedark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="LETS BEGIN YOUR CAREER
+RIGHT NOW"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/spaceullustration">
+
+        <Button
+            android:id="@+id/buttonsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:textColor="#ffe79e"
+            android:text="GO!" />
+    </LinearLayout>
+
+
+</LinearLayout>

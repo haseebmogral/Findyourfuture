@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "350814246807",
+    "firebase_url": "https://findyourfuture-8df9d.firebaseio.com",
+    "project_id": "findyourfuture-8df9d",
+    "storage_bucket": "findyourfuture-8df9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350814246807:android:ab15c23876dcbf08",
+        "android_client_info": {
+          "package_name": "com.findyourfuture.amitech.findyourfuture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350814246807-cienvor793a084oi3dmk8jbraiaiudnp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.findyourfuture.amitech.findyourfuture",
+            "certificate_hash": "3e93fd7fc521ad720b6ac5ce8e8943be0c7107db"
+          }
+        },
+        {
+          "client_id": "350814246807-k3i6cqiaf2u4l1erv3nn04e997rsmmfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEIKyw93uqvr3ORxG6LTgr3zryOnEcB08"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350814246807-k3i6cqiaf2u4l1erv3nn04e997rsmmfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

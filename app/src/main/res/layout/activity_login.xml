@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".login">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Your Future"
+        android:textSize="50sp"
+        android:paddingBottom="80dp"
+        android:fontFamily="cursive"
+        android:layout_above="@+id/sociallayout"
+        android:gravity="center"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_above="@+id/newaccount"
+        android:paddingLeft="50dp"
+        android:id="@+id/orlayout"
+        android:paddingRight="50dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/or"
+            android:background="#f2f2f2" />
+
+        <TextView
+            android:id="@+id/or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:fontFamily="sans-serif"
+            android:text="OR"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.05dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/or"
+            android:background="#f2f2f2" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/sociallayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="50dp"
+        android:layout_above="@+id/orlayout"
+        android:paddingRight="50dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/fakefbbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editextround"
+            android:text="Login with Facebook"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_facebook"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/google_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_google"
+            android:background="@drawable/editextround"
+            android:text="Login with Google"
+            android:textColor="#ffffff" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/originalfbbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_above="@+id/login"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/newaccount"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:background="@drawable/editextround"
+            android:text="Create new account"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:text="Login existing account"
+        android:gravity="center"/>
+
+
+</RelativeLayout>

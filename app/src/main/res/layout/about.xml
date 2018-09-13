@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="3dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cambay"
+                android:text="Canara Engineering College is run by Canara High School Association (CHSA), an association based in Mangalore contributing towards Konkani linguistic minority education. The group was founded by the late Ammembal Subba Rao Pai (also founder of Canara Bank) in 1891. Ammembal Subbarao Pai was a social reformer and a philanthropist who aimed at imparting modern education blended with ancient cultural values to the youth of Dakshina Kannada. With this in mind he started the Canara High School Association with its primary project being the CHS which was established in 1891 and functions even today. The group which is now primarily funded by alumni, also runs several other educational institutions in and around Mangalore. The College was started in the year 2001 with 180 seats in 3 Branches of Engineering. Two more Engineering branches were added in the year 2004. At present it has 8 sections with a total intake of 504 seats including 24 seats of SNQ."
+                android:textAlignment="center" />
+            <Button
+                android:id="@+id/btn_bottom_sheet"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Show Bottom Sheet" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

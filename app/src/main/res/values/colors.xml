@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5486FF</color>
+    <color name="colorPrimaryDark">#8972FF</color>
+    <color name="colorAccent">#bf40ff</color>
+
+    <color name="black">#000</color>
+    <color name="lightorange">#fdf2df</color>
+    <color name="lightorangedark">#ebd6ab</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorButtonCompleteState">#19CC95</color>
+    <color name="colorProgressIndicatorBackground">#BBBBBB</color>
+    <color name="colorStroke">#19CC95</color>
+    <color name="colorRed">#ffcd0a51</color>
+
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+    <color name="transparent">#00777777</color>
+
+    <color name="actionbar_title_color">#ffffff</color>
+</resources>
