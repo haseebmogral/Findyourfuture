@@ -23,6 +23,8 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        String test="testvalue";
+
 
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
