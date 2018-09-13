@@ -18,6 +18,9 @@ import com.findyourfuture.amitech.findyourfuture.Fragments.StoreFragment;
 public class Home extends AppCompatActivity {
 
 
+    //this is first change
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
